@@ -1,0 +1,12 @@
+Transformer 三部曲：
+
+1，原始论文：
+https://arxiv.org/abs/1706.03762
+
+
+2，图解版博客：
+https://jalammar.github.io/illustrated-transformer/
+
+
+3，代码版博客：
+http://nlp.seas.harvard.edu/annotated-transformer/

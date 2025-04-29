@@ -1,0 +1,7 @@
+A330
+A320/321
+A220
+ARJ21
+Boeing737
+Boeing787
+other
