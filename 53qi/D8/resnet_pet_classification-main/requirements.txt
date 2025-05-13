@@ -1,0 +1,4 @@
+numpy>=1.17.0
+pyyaml>=5.3
+tqdm
+gradio
