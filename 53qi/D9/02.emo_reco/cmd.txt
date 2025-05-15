@@ -1,0 +1,1 @@
+python emotion_detector.py --cascade haarcascade_frontalface_default.xml --model output/epoch_75.hdf5  --video video/test.mp4
