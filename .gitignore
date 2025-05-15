@@ -14,17 +14,27 @@ day27/codes/Qwen2.5-0.5B-Instruct
 day27/codes/Qwen2.5-0.5B-Instruct/model.safetensors
 53qi/D5/pubg/(竞赛)参考模型
 
+# JetBrains IDE
+.idea/
 
+# files & datasets
 *.zip
 *.pdf
 *.jpg
 *.csv
 *.img
+*.hdf5
+*.mp4
+
+
+# model files
+*.safetensors
 *.pt
 *.pth
+*.pkl
+*.ckpt
 *.lxh
 *.pmz
-*.safetensors
 
 # Virtual_document
 .virtual_documents
