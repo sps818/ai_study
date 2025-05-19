@@ -13,6 +13,7 @@ day26/codes/sentiment_model
 day27/codes/Qwen2.5-0.5B-Instruct
 day27/codes/Qwen2.5-0.5B-Instruct/model.safetensors
 53qi/D5/pubg/(竞赛)参考模型
+53qi/D10/VOCdevkit
 
 # JetBrains IDE
 .idea/
@@ -184,3 +185,4 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
