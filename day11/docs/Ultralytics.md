@@ -5,7 +5,7 @@
 
 ### 2. 数据集的格式
 - 1. 分类问题：
-    - gesture
+    - 数据集名字
         - train
             - zero
                 - 1.jpg
@@ -21,22 +21,21 @@
                 - 1.jpg
                 - 2.jpg
 - 2. 目标检测问题：
-    - 数据集格式：
-        - 数据集名字
-            - images
-                - train
-                    - 1.jpg
-                    - 2.jpg
-                - test
-                    - 1.jpg
-                    - 2.jpg
-            - labels
-                - train
-                    - 1.txt
-                    - 2.txt
-                - test
-                    - 1.txt
-                    - 2.txt
+    - 数据集名字
+        - images
+            - train
+                - 1.jpg
+                - 2.jpg
+            - test
+                - 1.jpg
+                - 2.jpg
+        - labels
+            - train
+                - 1.txt
+                - 2.txt
+            - test
+                - 1.txt
+                - 2.txt
     - 标注工具：
         - labelimg
             - python 3.8
