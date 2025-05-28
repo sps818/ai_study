@@ -1,5 +1,6 @@
 from ultralytics import YOLO
 import cv2
+import os
 
 
 # 1. 加载模型
@@ -9,7 +10,16 @@ print("Model loaded successfully.")
 
 # 2. 打开视频
 print("Opening video...")
-cap = cv2.VideoCapture("video.mp4")
+
+# 获取当前代码文件的绝对路径
+current_file_path = os.path.abspath(__file__)
+# 获取当前代码文件的目录
+current_file_dir = os.path.dirname(current_file_path)
+# 获取视频文件的绝对路径
+video_path = os.path.join(current_file_dir, "video.mp4")
+
+
+cap = cv2.VideoCapture(video_path)
 if not cap.isOpened():
     print("Error: Could not open video.")
     exit()
