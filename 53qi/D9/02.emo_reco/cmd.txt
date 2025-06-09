@@ -1,1 +1,3 @@
 python emotion_detector.py --cascade haarcascade_frontalface_default.xml --model output/epoch_75.hdf5  --video video/test.mp4
+
+python emotion_detector.py --c haarcascade_frontalface_default.xml --m output/epoch_75.hdf5  --v video/test.mp4
